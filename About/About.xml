@@ -6,7 +6,7 @@
   <packageId>junip0r.roomfooddistancepatch</packageId>
   <modVersion>1.0</modVersion>
   <author>junip0r</author>
-  <description>Increases Room Food's max distance to look for a table from 200 to 500.</description>
+  <description>Increases Room Food's max distance to look for a table from 200 to 9999.</description>
 
   <supportedVersions>
     <li>1.6</li>

@@ -20,7 +20,7 @@ internal static class Patch
     {
 		var listing_Standard = new Listing_Standard();
 		listing_Standard.Begin(wrect);
-		__instance.maxDistanceToTable = (int)listing_Standard.SliderLabeled($"Distance to look for a table: {__instance.maxDistanceToTable}", __instance.maxDistanceToTable, 1f, 500f);
+		__instance.maxDistanceToTable = (int)listing_Standard.SliderLabeled($"Distance to look for a table: {__instance.maxDistanceToTable}", __instance.maxDistanceToTable, 1f, 9999f);
 		listing_Standard.Gap();
 		listing_Standard.End();
         return false;
