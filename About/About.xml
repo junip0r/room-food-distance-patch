@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+
+  <name>Room Food Distance Patch</name>
+  <packageId>junip0r.roomfooddistancepatch</packageId>
+  <modVersion>1.0</modVersion>
+  <author>junip0r</author>
+  <description>Increases Room Food's max distance to look for a table from 200 to 500.</description>
+
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+
+  <modDependencies>
+
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+
+    <li>
+      <packageId>TheLordDrake.RoomFood</packageId>
+      <displayName>Room Food</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/3530729319</steamWorkshopUrl>
+    </li>
+
+  </modDependencies>
+
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>TheLordDrake.RoomFood</li>
+  </loadAfter>
+
+</ModMetaData>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <AssemblyName>RoomFoodDistancePatch</AssemblyName>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="dep/0Harmony.dll" />
+    <Reference Include="dep/Assembly-CSharp.dll" />
+    <Reference Include="dep/UnityEngine.dll" />
+    <Reference Include="dep/UnityEngine.CoreModule.dll" />
+    <Reference Include="dep/Room_Food.dll" />
+  </ItemGroup>
+
+</Project>
